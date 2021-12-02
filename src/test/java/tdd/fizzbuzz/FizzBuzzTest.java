@@ -24,7 +24,7 @@ public class FizzBuzzTest {
         String result = fizzBuzz.countOff(order);
 
         //then
-        assertEquals(order, result);
+        assertEquals(String.valueOf(order), result);
     }
 
     @Test

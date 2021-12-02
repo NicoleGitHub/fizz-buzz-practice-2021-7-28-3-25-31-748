@@ -11,7 +11,6 @@ public class FizzBuzz {
     public static final String BUZZWHIZZ = "BuzzWhizz";
 
     public String countOff(int order) {
-        // No need two boolean la :D ?? you mean out
         return String.valueOf(order);
     }
 

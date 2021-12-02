@@ -108,7 +108,7 @@ public class FizzBuzzTest {
     @Test
     void should_return_BuzzWhizz_when_count_off_given_order_number_multiple_of_5_And_7() {
         //given
-        int order = 45;
+        int order = 35;
 
         // when
         FizzBuzz fizzBuzz = new FizzBuzz();

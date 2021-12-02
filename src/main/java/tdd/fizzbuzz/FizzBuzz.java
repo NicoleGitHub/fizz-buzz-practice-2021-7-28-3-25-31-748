@@ -11,7 +11,7 @@ public class FizzBuzz {
     public static final String BUZZWHIZZ = "BuzzWhizz";
 
     public String countOff(int order) {
-        return  ((order%3 == 0) && (order%7 ==0)) ? FIZZWHIZZ : ((order%3 == 0) && (order%5 ==0)) ? FIZZBUZZ : (order%7 == 0) ? WHIZZ : (order%5 == 0) ? BUZZ : (order%3 == 0) ? FIZZ : String.valueOf(order);
+        return  ((order%3 == 0) && (order%5 ==0) && (order%7 ==0)) ? FIZZBUZZWHIZZ :((order%3 == 0) && (order%7 ==0)) ? FIZZWHIZZ : ((order%3 == 0) && (order%5 ==0)) ? FIZZBUZZ : (order%7 == 0) ? WHIZZ : (order%5 == 0) ? BUZZ : (order%3 == 0) ? FIZZ : String.valueOf(order);
     }
 
 }

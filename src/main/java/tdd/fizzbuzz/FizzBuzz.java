@@ -11,7 +11,7 @@ public class FizzBuzz {
     public static final String BUZZWHIZZ = "BuzzWhizz";
 
     public String countOff(int order) {
-        return String.valueOf(order);
+        return (order%3 == 0) ? FIZZ : String.valueOf(order);
     }
 
 }
